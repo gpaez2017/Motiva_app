@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_regist_implant"
+            android:title="Register Implants" />
+        <item
+            android:id="@+id/nav_products"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="Motiva Maping" />
+    </group>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
